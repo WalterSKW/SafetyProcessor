@@ -8,5 +8,5 @@ Initial setup uses an Arduino Nano, a MQ 135 based smoke detector and as high te
 The setup allows 2 detection units to be connected. 2 because most printers have one sort of electronics box containing high power switching equipment for a heated BED and for the extruders and may have also an enclosed printing chamber (to keep te print protected from draft and eventually also heated to prevent warping)
 One unit contains one MQ-135 gas detector, one 100k NTC and one LED for signalling.
 
-The processor reads the values from the detectors installed and switches of the power electronics using a relay in the case of abnormal values.
+The processor reads the values from the detectors installed and switches off the power electronics using a relay in the case of abnormal values.
 Another function is that the processor can be used to switch the printing unit on and off using a pushbutton switch.
