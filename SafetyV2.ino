@@ -152,7 +152,6 @@ void loop()
 //  0 : no alarm
 //  1 : temperature exceeded
 //  2 : smoke detected
-//  3 : temperature exceeded AND smoke detected
 //
 // ---------------------------------------------------------------
 //
