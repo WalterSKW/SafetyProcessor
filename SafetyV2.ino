@@ -8,17 +8,11 @@
 // V0.1		20170813	Base
 // V0.2   20170928  review LED behaviour
 // ---------------------------------------------------------------
-//
+// 
 //#define DEBUG     			        // insert 2 slashes in front of the #define to disable
 #define CYCLE 50		              // cycletime in ms = time between detector checks
 #define LEDCYCLES 20			        // to control LED behaviour over a total cycle time of LEDCYCLES x CYCLE ms
-/*
-   NTC : Value decreases when temperature increases!!
-   Value is independent of voltage variations in the 5V source since it is the ratio between the 2 resistors
-   100K at 25°C
-   10K @ ~80°C : with a 10K pull-up -> 2,5V (5V * 10k/(10k+10k)
-   Max value = 1023@5V so limit will be a value of 512@2,5V
-*/
+
 // define limits
 // NTC@25°C : 100k, NTC@80°C : 10k
 // Pull up resistor to Vcc = 100k
