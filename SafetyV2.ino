@@ -1,7 +1,7 @@
 //
 // ---------------------------------------------------------------
 // Program  : Safetymonitor
-// Hardware : Arduino Uno
+// Hardware : Arduino Nano
 // Author   : Whu
 // ---------------------------------------------------------------
 //  Version	Date		Description
