@@ -127,6 +127,7 @@ void loop()
       {
         PrinterState = !PrinterState;   // toggle machine state
         TogglePower();
+        delay(1000);                    // avoid switching on/off due to short cycle time
       }
     }
   }
@@ -313,9 +314,12 @@ void TogglePower()
   {
     case true :
       digitalWrite(SafetyRelay, HIGH);       // Relay On
+      digitalWrite(LedPower, HIGH);
       break;
     case false :
       digitalWrite(SafetyRelay, LOW);       // Relay Off
+      digitalWrite(LedPower, LOW);
       break; 
   }
+
 }
